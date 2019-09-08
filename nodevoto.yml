@@ -140,7 +140,7 @@ metadata:
   name: web-svc
   namespace: nodevoto
 spec:
-  type: LoadBalancer
+  type: NodePort
   selector:
     app: web-svc
   ports:
